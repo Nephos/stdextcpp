@@ -9,8 +9,8 @@ default:
 	@echo "Try 'make install' to install the files in $(DIR)"
 
 install:
-	mkdir -p $(DIR)
-	cp -rv *.hpp $(DIR)
+	@mkdir -p $(DIR)
+	@cp -rv *.hpp $(DIR)
 
 uninstall:
 	@rm -rfv $(DIR)
