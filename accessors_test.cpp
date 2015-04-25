@@ -10,7 +10,7 @@ public:
 
   reader_accessor(fname, std::string)
   writer_accessor(fname, std::string)
-  std::string fname;
+  std::string _fname;
   create_attr(lname, std::string)
 };
 
