@@ -6,7 +6,6 @@ The C++11 brings improvements to c++, like the native conversion between strings
 # Content
 - accessors : to create 'set_attr' and 'get_attr' methods to access in read/write to an attribute
 - Raise : an improvement to standard exception.
-- PThread encapsulation (c++11 does)
 - std_improve : others (c++ does some)
 
 # Installation
